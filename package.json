@@ -1,0 +1,46 @@
+{
+  "name": "weshop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@iconscout/react-unicons": "^1.1.6",
+    "@mantine/core": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@sanity/client": "^3.3.2",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.32.0",
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "stripe": "^9.12.0",
+    "yarn": "^1.22.19",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wassim-py/we-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wassim-py/we-shop/issues"
+  },
+  "homepage": "https://github.com/wassim-py/we-shop#readme"
+}
